@@ -32,6 +32,7 @@ Forwards packets based on learned MAC addresses
 ▶️ Start Controller
 cd ~/pox
 python3 pox.py log.level --DEBUG openflow.of_01 traffic_classifier.traffic_classifier_pox
+
 ▶️ Run Mininet Topology
 sudo mn --topo single,2 --controller=remote,ip=127.0.0.1,port=6633 --switch ovsk
  Traffic Generation
